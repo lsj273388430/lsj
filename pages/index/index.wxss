@@ -1,0 +1,72 @@
+/**index.wxss**/
+.img-shange{
+  width: 100%;
+  height: 355rpx;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.dh{
+ float: left;
+ width: 100%;
+ padding-top:30rpx; 
+}
+.xtp{
+  float: left;
+  width: 130rpx;
+  height: 160rpx;
+  text-align: center;
+  margin-left:51rpx;
+}
+.img{
+  width:72rpx;
+  height: 71rpx;
+}
+.tz{
+  line-height: 66rpx;
+  font-size: 33rpx;
+  color:#585858;
+  text-align: center;
+}
+.fl{
+  float: left;
+  width: 100%;
+  height: 145rpx;
+  text-align: center;
+}
+.hg{
+  float: left;
+  width: 43rpx;
+  height: 3rpx;
+  background:#bbbbbb;
+  margin-top: 72rpx;
+}
+.pt{
+  float: left;
+  width: 329rpx;
+  height: 71rpx;
+  margin-top: 48rpx;
+}
+.img-1{
+  float: left;
+  width: 54rpx;
+  height: 54rpx;
+  margin-left:57rpx; 
+}
+.wz{
+  color:#555555;
+}
+.wz1{
+  float: right;
+  color:#686868;
+  margin-top:45rpx; 
+  margin-right:20rpx; 
+}
+.img-2{
+  float: right;
+  width: 16rpx;
+  height: 31rpx;
+   margin-top:55rpx; 
+   margin-right:10rpx; 
+}

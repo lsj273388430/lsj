@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<swiper class='img-shange' indicator-dots="{{indicatorDots}}"
+autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block  wx:for="{{imgUrls}}" >
+  <swiper-item>
+    <image src="{{item}}" class="slide-image" width="355" height="516"/>
+  </swiper-item>
+  </block>
+</swiper>
+<view class='dh'>
+  <view class='xtp' style='margin-left: 32rpx;'>
+    <image  class="img" src="../../img/tp-2.png"></image>
+    <view class='tz'>首页</view>
+  </view>
+  <view class='xtp'>
+    <image  class="img" src="../../img/tp-3.png"></image>
+    <view class='tz'>分类</view>
+  </view>
+  <view class='xtp'>
+    <image  class="img" src="../../img/tp-4.png"></image>
+    <view class='tz'>购物车</view>
+  </view>
+  <view class='xtp'>
+    <image  class="img" src="../../img/tp-5.png"></image>
+    <view class='tz'>用户中心</view>
+  </view>
+</view>
+<view class='fl'>
+<view class='hg' style=' margin-left: 155rpx;'></view>
+<view class='pt'>
+<image class='img-1' src='../../img/tp-6.png'></image>
+<view class='wz'>饼干类</view>
+</view>
+<view class='hg'></view>
+<image class='img-2' src='../../img/tp-7.png'></image>
+<view class='wz1'>
+更多
+</view>
+</view>
+
